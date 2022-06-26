@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: MIDAS QR SCU
+  data:
+    mongodb:
+        authentication-database: admin
+        database: metu
+        uri: mongodb://localhost:27017/
+      #mongodb://midas:123456@localhost:27017/?authSource=test&readPreference=primary&appname=MongoDB%20Compass&ssl=false
+      #mongodb://midas:123456@localhost:27017/test?authSource=admin&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&directConnection=true&ssl=false
+server:
+  port: 5432
